@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bids",
+  "info": {
+    "singularName": "bid",
+    "pluralName": "bids",
+    "displayName": "Bid",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "comment": {
+      "type": "string"
+    },
+    "code": {
+      "type": "string"
+    },
+    "TourName": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
